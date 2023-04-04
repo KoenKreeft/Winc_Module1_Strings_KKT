@@ -1,0 +1,15 @@
+Speler_0 = 'Ruud Gullit'
+Speler_1 = 'Marco van Basten'
+goal_0 = 32
+goal_1 = 54
+scorers = f'{Speler_0} {goal_0}, {Speler_1} {goal_1}'
+report = f'{Speler_0} scored in the {goal_0}nd minute\n{Speler_1} scored in the {goal_1}th minute'
+
+player = 'Frank Rijkaard'
+first_name= player [:5]
+last_name= player [6:]
+last_name_len = len(last_name)
+name_short = f'{first_name [0]}. {last_name [:8]}'
+
+chant= f'{first_name}! {first_name}! {first_name}! {first_name}! {first_name}!'
+good_chant = chant[:0]==''
