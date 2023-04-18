@@ -1,0 +1,18 @@
+Speler_0 = 'Ruud Gullit'
+Speler_1 = 'Marco van Basten'
+goal_0 = 32
+goal_1 = 54
+scorers = Speler_0 + ' ' + str(goal_0) + ', ' + Speler_1 + " " + str(goal_1)
+report = f'{Speler_0} scored in the {goal_0}nd minute\n{Speler_1} scored in the {goal_1}th minute'
+
+player = 'Frank Rijkaard'
+spatie = player.find(' ')
+first_name= player [:spatie]
+last_name= player [spatie + 1:]
+first_name_len = len(first_name)
+name_short = f'{first_name [0]}. {last_name}'
+
+chant = f'{first_name}! '* first_name_len
+goede_chant = chant[:-1]
+
+good_chant = goede_chant[:0] != " "
